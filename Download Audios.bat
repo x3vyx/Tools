@@ -1,0 +1,2 @@
+yt-dlp --batch-file URLs.txt --trim-filenames 100 --path Downloads --concurrent-fragments 10 -f ba -x --audio-quality 0 --embed-thumbnail --embed-metadata --parse-metadata ":(?P<meta_album>)" --download-archive Archive.txt -o "%%(playlist)s/%%(title)s - %%(artist)s.%%(ext)s" 
+pause
